@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1080px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 2rem;
+  }
+  .menu--flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-select {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mainNavigation--text {
+    font-size: 4rem;
+   }
+
+   .mainNavigation--paragrafo {
+    width: 35%;
+   }
+}
+
+@media screen and (max-width: 676px) {
+  .mainNavigation--text {
+    font-size: 2rem;
+  }
+
+}

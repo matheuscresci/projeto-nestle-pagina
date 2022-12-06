@@ -1,0 +1,483 @@
+@charset "UTF-8";
+
+/*Variável para cores*/
+:root {
+  --branco1: #ffffff;
+  --azul1: #00a2df;
+  --vermelho1: #f05d65;
+  --verde1: #057a3e;
+  --marrom1: #5a4a3a;
+}
+
+/*Reset CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--azul1);
+}
+
+.container {
+  max-width: 1270px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  background-color: var(--branco1);
+  padding: 5px;
+}
+
+.logo,
+.sociais {
+  width: 25%;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu--flex {
+  display: flex;
+  gap: 10px;
+}
+
+.menu nav .sobre {
+  background-color: var(--azul1);
+  border-radius: 35px;
+  color: var(--branco1);
+  transition-duration: 0.5s;
+}
+
+.sobre {
+  width: 175px;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+}
+
+.menu nav .sobre:hover {
+  background-color: var(--verde1);
+  cursor: pointer;
+}
+
+.sobre a {
+  padding-left: 4px;
+  text-transform: uppercase;
+}
+
+.menu nav a {
+  color: var(--branco1);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.menu nav .jovens {
+  background-color: var(--azul1);
+  border-radius: 35px;
+  color: var(--branco1);
+  transition-duration: 0.5s;
+}
+
+.menu nav .jovens:hover {
+  background-color: var(--verde1);
+  cursor: pointer;
+}
+
+.jovens {
+  width: 107px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.jovens a {
+  padding-left: 4px;
+  text-transform: uppercase;
+}
+
+.menu nav .nossas {
+  background-color: var(--azul1);
+  border-radius: 35px;
+  color: var(--branco1);
+  transition-duration: 0.5s;
+}
+
+.menu nav .nossas:hover {
+  background-color: var(--verde1);
+  cursor: pointer;
+}
+
+.nossas {
+  width: 171px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.nossas a {
+  padding-left: 4px;
+  text-transform: uppercase;
+}
+
+.menu nav .craques {
+  background-color: var(--azul1);
+  border-radius: 35px;
+  color: var(--branco1);
+  transition-duration: 0.5s;
+}
+
+.menu nav .craques:hover {
+  background-color: var(--verde1);
+  cursor: pointer;
+}
+
+.craques {
+  width: 210px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.craques a {
+  padding-left: 4px;
+  text-transform: uppercase;
+}
+
+.login a {
+  color: var(--azul1);
+  font-weight: 600;
+  text-decoration: none;
+  padding-right: 5px;
+}
+
+.login--flex {
+  display: flex;
+  align-items: center;
+  color: var(--azul1);
+}
+
+.login .login--flex .criar {
+  width: 100px;
+  padding-left: 10px;
+}
+
+.login .login--flex .entr {
+  border-right: 2px solid #00a2df;
+  padding: 0 11px;
+}
+
+.login .login--flex .material-icons {
+  padding-left: 0 2px;
+}
+
+/*ENTRANDO NA MAIN*/
+
+/* --- BANNER --- */
+.mainNavigation > .imagem {
+  background-image: url(../img/banner.jpg);
+  height: 540px;
+  width: 100vw;
+  background-size: cover;
+  background-position: center center;
+}
+
+.mainNavigation--text {
+  color: #ffffff;
+  font-size: 7em;
+  font-weight: 700;
+
+  text-shadow: 4px 2px 4px var(--marrom1);
+}
+
+.mainNavigation--paragrafo {
+  font-size: 1.5em;
+  color: var(--branco1);
+  text-shadow: 2px 0px 1px var(--marrom1);
+}
+
+.mainNavigation--textP {
+  display: flex;
+  flex-direction: column;
+  padding-top: 6%;
+  padding-left: 15%;
+}
+
+/* --- SEÇÃO ESCRITA --- */
+
+.mainNavigation__alerta {
+  padding-top: 60px;
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+.mainNavigation__alerta--text {
+  color: var(--branco1);
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  width: 60%;
+  display: block;
+  margin: auto;
+  border-bottom: 2px solid #ffffff;
+  padding: 0px 0px 45px 0px;
+}
+
+.mainNavigation__alerta--text2 {
+  color: var(--branco1);
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 60px;
+  width: 70%;
+  display: block;
+  margin: auto;
+
+  border-bottom: 2px solid #ffffff;
+  padding: 45px 0px 45px 0px;
+}
+
+.mainNavigation__alerta--text2--lgpd {
+  color: #174f83;
+  font-weight: 800;
+}
+
+.mainNavigation__alerta--text3 {
+  color: var(--branco1);
+  font-size: 2em;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 60px;
+  width: 70%;
+  display: block;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+
+
+.mainNavigation__alerta--text--button {
+  /*display: flex;
+  align-items: center;*/
+  display: block;
+  margin: auto;
+  color: #174f83;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: var(--branco1);
+  padding: 10px;
+  border-radius: 35px;
+  width: 300px;
+  transition-duration: 0.5s;
+}
+
+.mainNavigation__alerta--text--button:hover {
+  background-color: var(--verde1);
+  color: var(--branco1);
+}
+.mainNavigation__alerta--text--icon a {
+  color: #174f83;
+  text-decoration: none;
+  display: flex;
+    align-items: center;
+}
+
+.mainNavigation__alerta--text--icon  .material-icons {
+  padding-right: 15px;
+}
+
+.mainNavigation__alerta--text--icon {
+  padding-bottom: 20px;
+}
+
+.mainNavigation__alerta--text--button2 {
+  display: block;
+  margin: auto;
+  color: #174f83;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: var(--branco1);
+  padding: 10px;
+  border-radius: 35px;
+  width: 380px;
+  transition-duration: 0.5s;
+}
+
+.mainNavigation__alerta--text--button2:hover {
+  background-color: var(--verde1);
+  color: var(--branco1);
+}
+
+.mainNavigation__alerta--text--icon2 a {
+  color: #174f83;
+  text-decoration: none;
+  display: flex;
+    align-items: center;
+}
+
+.mainNavigation__alerta--text--icon2  .material-icons {
+  padding-right: 15px;
+}
+
+.mainNavigation__alerta--text--icon2 {
+  margin-bottom: 50px;
+}
+
+/* ------ Formulário ------ */
+
+.mainNavigation__content {
+  background-color: var(--azul1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+
+  
+
+}
+
+.mainNavigation__content--child {
+  background-color: var(--branco1);
+  width: 40%;
+  height: 100%;
+  padding: 2rem;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 13px 13px 14px #0185b7;
+  
+}
+
+.mainNavigation__content h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
+  font-size: 3em;
+  font-weight: 900;
+  color: #174f83;
+  
+  
+  text-transform: uppercase;
+}
+
+.mainNavigation__content p {
+  text-align: center;
+  padding-bottom: 3.5rem;
+  color: #174f83;
+  
+  font-size: 1.5em;
+  width: 73%;
+  display: block;
+  margin: auto;
+}
+
+.mainNavigation__content form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.mainNavigation__content--div {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  padding: 8px 5px;
+  outline: none;
+  border-radius: 20px;
+  height: 3rem;
+  border: 2px solid var(--marrom1);
+  color: var(--marrom1);
+  text-transform: uppercase;
+  padding-left: 1rem;
+  font-size: 1rem;
+  
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  transition-duration: .3s;
+}
+
+.inputs:focus {
+  
+  border: 2px solid var(--azul1);
+}
+
+textarea {
+  padding: 8px 5px;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid var(--marrom1);
+  color: var(--marrom1);
+  text-transform: uppercase;
+  padding-left: 1rem;
+  font-size: 1rem;
+  
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  transition-duration: .3s;
+}
+
+textarea:focus {
+  border: 2px solid var(--azul1);
+}
+
+.labels {
+  color: #174f83;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: .5rem;
+  font-weight: bold;
+  
+}
+
+.box-select {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  font-size: 1.5rem;
+  color: var(--marrom1);
+}
+
+.checkbox-paragrafo {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.box-select-sex {
+  font-weight: bold;
+}
+
+button[type="submit"] {
+  padding: 1rem;
+  font-size: 1.3rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  background-color: #174f83;
+  color: var(--branco1);
+  cursor: pointer;
+}
+
+button[type="reset"] {
+  padding: 1rem;
+  font-size: 1.3rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #174f83;
+  color: var(--branco1);
+  cursor: pointer;
+}

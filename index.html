@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Fale Conosco | Nestlé Com Você</title>
+  <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media-query.css">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo"><a href="#"><img src="img/logo-pq.png" alt=""></a></div>
+      <div class="menu">
+        <nav>
+          <div class="menu--flex">
+            <div class="sobre">
+              <span class="material-icons"> arrow_circle_right </span>
+              <a href="#">sobre a nestlé</a>
+            </div>
+            <div class="jovens">
+              <span class="material-icons"> arrow_circle_right </span>
+              <a href="#">jovens</a>
+            </div>
+            <div class="nossas">
+              <span class="material-icons"> arrow_circle_right </span>
+              <a href="#">nossas marcas</a>
+            </div>
+            <div class="craques">
+              <span class="material-icons"> arrow_circle_right </span>
+              <a href="#">craques da seleção</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="login">
+        <nav class="login--flex">
+          <span class="material-icons">account_circle</span>
+          <a class="entr" href="#">Entrar</a>
+          <a class="criar" href="#">Criar conta</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="mainNavigation">
+    <div class="imagem">
+      <div class="mainNavigation--textP">
+        <span class="mainNavigation--text">FALE<br> CONOSCO</span>
+        <span class="mainNavigation--paragrafo">Nós estamos muito interessados no que você tem a dizer.</span>
+      </div>
+    </div>
+
+    <div class="mainNavigation__alerta">
+     <div class="mainNavigation__alerta--text">Criamos este espaço especialmente para você fazer seus comentários, dar sugestões e esclarecer dúvidas.</div>
+     <div class="mainNavigation__alerta--text2"><span class="mainNavigation__alerta--text2--lgpd">DE OLHO NA LGPD:</span> Para realizarmos o atendimento via <span class="mainNavigation__alerta--text2--lgpd">FALE CONOSCO</span> precisaremos fazer a coleta e o tratamento dos seus dados pessoais.
+      Por isso, antes de submeter a sua mensagem certifique-se que você está de acordo com a <span class="mainNavigation__alerta--text2--lgpd">Política de Privacidade da NESTLÉ®</span>.</div>
+      <div class="mainNavigation__alerta--text3">Outros canais de comunicação:</div>
+      
+      <div class="mainNavigation__alerta--text--icon">
+        <a class="mainNavigation__alerta--text--button" href="#">
+          <span class="material-icons">add_call</span>
+          <div class="mainNavigation__alerta--text4">Veja todos os telefones</div>
+        </a>
+      </div>
+
+      <div class="mainNavigation__alerta--text--icon2">
+        <a class="mainNavigation__alerta--text--button2" href="#">
+          <span class="material-icons">sign_language</span>
+            <div class="mainNavigation__alerta--text5">Atendimento exclusivo em libras</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="mainNavigation__content">
+      <div class="mainNavigation__content--child">
+
+        <h1>fale conosco</h1>
+        <p>Por favor, preencha suas informações para que possamos lhe responder o mais breve possível</p>
+
+        <form method="post" autocomplete="on">
+
+          <div class="mainNavigation__content--div">
+            <label class="labels" for="inome">Nome Completo</label>
+            <input type="text" class="inputs" name="nome" id="inome" placeholder="Digite seu nome completo" required minlength="8" maxlength="40" autocomplete="name" class="inputs">
+          </div>
+
+          <div class="box-select">
+            <div class="box-select-sex">Sexo:</div>
+            <div>
+              <input type="radio" name="sexo" id="m" value="m">
+              <label for="m">Masculino</label>
+            </div>
+            <div>
+              <input type="radio" name="sexo" id="f" value="f">
+              <label for="f">Feminino</label>
+            </div>
+            <div>
+              <input type="radio" name="sexo" id="o" value="o">
+              <label for="o">Outro</label>
+            </div>
+          </div>
+
+          <div class="mainNavigation__content--div">
+            <label class="labels" for="iniver">Data de Nascimento</label>
+            <input type="date" name="niver" id="iniver" class="inputs" required>
+      
+          </div>
+          <div class="mainNavigation__content--div">
+            <label class="labels" for="iass">Assunto</label>
+            <select name="assunto" id="iass" class="inputs" required>
+              <option value="" selected>--- Selecione ---</option>
+              <option value="">Crítica</option>
+              <option value="">Elogio</option>
+              <option value="">Informação</option>
+              <option value="">Reclamação</option>
+              <option value="">Solicitação</option>
+              <option value="">Sugestão</option>
+              <option value="">Dúvidas Nutricionais</option>
+              <option value="">Chocolates Nestlé</option>
+            </select>
+          </div>
+          <div class="mainNavigation__content--div">
+            <label class="labels" for="iarq">Anexo (Arquivo JPG, PNG, PDF ou DOC)</label>
+            <input type="file" name="arq" id="iarq" class="inputs">
+      
+          </div>
+         <div class="mainNavigation__content--div">
+          <label class="labels" for="iemail">E-mail</label>
+          <input type="email" name="mail" id="iemail" class="inputs" autocomplete="email" required placeholder="Digite seu melhor e-mail aqui">
+      
+         </div>
+         <div class="mainNavigation__content--div">
+          <label class="labels" for="itel">Telefone para Contato</label>
+          <input type="tel" name="tel" id="itel" class="inputs" minlength="11" maxlength="13" required autocomplete="tel" placeholder="(XX)-XXXXX-XXXX">
+      
+         </div>
+         <div class="mainNavigation__content--div">
+          <label class="labels" for="imsg">Mensagem</label>
+          <textarea name="msg" id="imsg" cols="70" rows="10" required minlength="10" placeholder="por favor, nos diga como podemos lhe ajudar!"></textarea>
+         </div>
+         <div>
+          <input type="checkbox" name="aviso" id="iaviso">
+          <label for="iaviso" class="checkbox-paragrafo">Concordo que a Nestlé use meus dados pessoais, de contato e interações para me mandar comunicações de marketing por e-mail, SMS, WhatsApp e Telefone. Seu consentimento para este fim é voluntário e você é livre para retirá-lo a qualquer momento. Mais informações disponíveis na Política de Privacidade da Nestlé.</label>
+         </div>
+
+         <button type="submit">Enviar</button>
+         <button type="reset">Limpar</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+
+  </footer>
+
+  <section>
+
+  </section>
+</body>
+
+</html>
