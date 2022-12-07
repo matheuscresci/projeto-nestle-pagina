@@ -39,3 +39,64 @@
   }
 
 }
+
+@media screen and (max-width: 500px) {
+
+.mainNavigation--text {
+  margin-top: 3rem;
+  font-size: 3rem;
+}
+
+.mainNavigation--textP {
+  padding-left: 7%;
+}
+
+  .mainNavigation--paragrafo {
+    width: 50vw;
+    padding-top: 1rem;
+  }
+
+  .mainNavigation__alerta--text {
+    width: 100%;
+  }
+  
+  .mainNavigation__alerta--text2 {
+    width: 100%;
+  }
+
+  .mainNavigation__alerta--text--icon2 a {
+    width: 100%;
+  }
+
+  .mainNavigation__content--child {
+    width: 90%;
+  }
+
+  .helpInfo--button {
+    text-align: center;
+    width: 90%;
+  }
+
+  .rodape--flex {
+display: flex;
+flex-direction: column;
+  }
+
+  .rodape {
+    margin-bottom: 3rem;
+  }
+
+  .infooter {
+    height: 8vh;
+  }
+
+  .infooter p {
+    padding-top: 1rem;
+    margin-left: 3rem;
+    width: 75%;
+  }
+
+  .rodafooter {
+    padding-bottom: .5rem;
+  }
+}
